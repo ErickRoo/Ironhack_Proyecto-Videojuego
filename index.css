@@ -1,0 +1,32 @@
+/*CSS*/
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(83, 46, 0);
+    background-image: url("/Ironhack_Proyecto-Videojuego/images/instrucciones.jpeg");
+    background-size: cover;
+}
+h1 {
+font-size: 30px;
+text-align: center;
+text-shadow: rgb(168, 138, 16) 1px 0 10px;
+}
+h2, p {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    text-shadow: rgb(71, 58, 4) 1px 0 10px;
+}
+#instrucciones ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+    font-size: 16px;
+    text-shadow: rgb(75, 61, 5) 1px 0 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
